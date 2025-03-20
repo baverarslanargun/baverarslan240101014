@@ -32,11 +32,11 @@ main{
     text-align:left;
 }
 
-.card h2{
+.kart h2{
     margin-top:0;
 }
 
-.card hr{
+.kart hr{
     border:0;
     height:1px;
     background:#fff;
@@ -53,4 +53,7 @@ footer{
 }
 .klass{
     margin-top:20px;
+}
+.klass h1{
+    font-weight: 800;
 }
