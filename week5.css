@@ -43,6 +43,34 @@ main{
     margin:20px 0;
 }
 
+.kart2{
+    background:linear-gradient(135deg, #22ecc7, #e27bfe);
+    color:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width:600px;
+    margin:20px auto;
+    text-align:left;
+}
+
+.kart2 h2{
+    margin-top:0;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    width: min-content;
+    min-width: 90px;
+}
+
+.kart2 hr{
+    border:0;
+    height:1px;
+    background:#fff;
+    margin:20px 0;
+}
+
 footer{
     background-color:#fff;
     padding:10px;
@@ -51,9 +79,15 @@ footer{
     width:100%;
     bottom:0;
 }
+
 .klass{
-    margin-top:20px;
+    background-color: #e51313;
+    padding: 10px;
+    width: 90%;
+    margin: 20px auto auto auto;
 }
 .klass h1{
+    color: white;
     font-weight: 800;
+    font-size: 25px;
 }
