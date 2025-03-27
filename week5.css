@@ -91,3 +91,26 @@ footer{
     font-weight: 800;
     font-size: 25px;
 }
+
+.klass h2{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.kart3{
+    padding: auto;
+    text-align: center;
+    background:linear-gradient(135deg, #50b700, #00cbba);
+    color:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width:600px;
+    margin:20px auto 100px auto;
+    text-align:left;
+}
+
+.kart3 p, h1, h2, blockquote{
+    text-align: center;
+}
