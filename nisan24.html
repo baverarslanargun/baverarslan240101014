@@ -15,6 +15,38 @@
       padding: 10px;
       margin: 5px;
     }
+
+    .mydiv{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    span.a {
+        display: inline; /* the default for span */
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;  
+        background-color: yellow; 
+    }
+
+    span.b {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;    
+        background-color: yellow; 
+    }
+
+    span.c {
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue;    
+        background-color: yellow; 
+    }
   </style>
 </head>
 <body>
@@ -48,7 +80,9 @@
 
   <div class="mydiv">
 
-    
+    <h2>display: inline-block</h2>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
   </div>
 
 </body>
